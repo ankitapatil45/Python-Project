@@ -1,0 +1,7 @@
+.home {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333333; /* or whatever color you want */
+}
