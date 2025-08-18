@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from config import config_by_name
+from config import config_by_name
 from extensions import db, migrate, jwt  # import extensions from extensions.py
 
 # In-memory blacklist for revoked tokens (can replace with Redis or DB later)
