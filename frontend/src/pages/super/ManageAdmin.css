@@ -1,0 +1,128 @@
+.manage-admin {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.manage-admin h3 {
+  text-align: center;
+  color: #000000d6;
+  margin-bottom: 20px;
+}
+
+/* Form Section */
+.add-admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start; 
+  margin-bottom: 25px;
+}
+
+.add-admin-form input,
+.add-admin-form select{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  width: 200px;             /* ✅ same width */
+  height: 40px;             /* ✅ same height */
+  box-sizing: border-box;   /* ensures padding fits inside */
+}
+
+/* Inputs and dropdown focus effect */
+.add-admin-form input:focus,
+.add-admin-form select:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 5px rgba(42, 82, 152, 0.3);
+}
+
+.add-admin-form button {
+  width:  150px;             /* ✅ same width */
+  height: 40px; 
+}
+
+/* Button override */
+.add-admin-form button {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;               /* remove default border */
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.add-admin-form button:hover {
+  background: linear-gradient(135deg, #16335d, #244a8c);
+}
+
+/* Search Bar */
+.search-bar {
+  margin: 15px 0;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  outline: none;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 5px rgba(42, 82, 152, 0.3);
+}
+
+/* Common Table Styling */
+.table-container {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+thead {
+  background: #2a5298;
+  color: #fff;
+}
+
+/* ✅ Ensure header never changes on hover */
+thead tr,
+thead tr:hover,
+thead th:hover {
+  background: #2a5298 !important;
+  color: #fff !important;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ✅ Only apply hover to table body rows */
+tbody tr:hover {
+  background: #f5f7fa;
+}
+
+th:first-child, td:first-child {
+  border-top-left-radius: 6px;
+}
+
+th:last-child, td:last-child {
+  border-top-right-radius: 6px;
+}

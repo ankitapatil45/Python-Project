@@ -1,0 +1,62 @@
+/* .profile-settings {
+  width: 100%;
+}
+
+.profile-settings h2 {
+  text-align: left;
+  color: #2a5298;
+  margin-bottom: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.profile-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.profile-form input:focus {
+  border-color: #1e3c72;
+}
+
+.save-btn {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;              
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.save-btn {
+  width:  150px;            
+  height: 40px; 
+}
+
+.save-btn:hover {
+  background: linear-gradient(135deg, #16335d, #244a8c);
+}
+
+.message {
+  margin-top: 10px;
+  color: green;
+  font-weight: 500;
+} */

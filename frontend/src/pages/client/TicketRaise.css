@@ -1,0 +1,146 @@
+/*.ticket-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.ticket-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+ 
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.ticket-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+ 
+.ticket-form input,
+.ticket-form textarea,
+.ticket-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+ 
+.ticket-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+ 
+.ticket-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+ 
+.ticket-form button:hover {
+  background: #16a085;
+}
+ 
+.ticket-message {
+  margin-top: 15px;
+  font-weight: bold;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page container to keep everything centered  all thing is correct just not add the departmnt selection*/
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* vertically center */
+}
+
+/* Heading above the form */
+.ticket-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Form box */
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+.ticket-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Inputs */
+.ticket-form input,
+.ticket-form textarea,
+.ticket-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Textarea resize */
+.ticket-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit Button */
+.ticket-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #1f88f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ticket-form button:hover {
+  background: #16a085;
+}
+
+/* Message */
+.ticket-message {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ 

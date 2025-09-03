@@ -1,0 +1,112 @@
+.all-tickets {
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+ 
+.all-tickets h3 {
+  text-align: center;
+  color: #2a5298;
+  margin-bottom: 24px;
+  font-size: 22px;
+  font-weight: 600;
+}
+ 
+/* Ticket Controls (Filters + Search + Button) */
+.ticket-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+ 
+.ticket-controls input,
+.ticket-controls select {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  width: 220px;
+  height: 42px;
+  box-sizing: border-box;
+  transition: 0.25s ease;
+  background: #fafafa;
+}
+ 
+.ticket-controls input:focus,
+.ticket-controls select:focus {
+  border-color: #2a5298;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(42, 82, 152, 0.3);
+}
+ 
+/* Button styling */
+.ticket-controls button {
+  width: 160px;
+  height: 42px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+ 
+.ticket-controls button:hover {
+  background: linear-gradient(135deg, #16335d, #244a8c);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(42, 82, 152, 0.4);
+}
+ 
+/* Ticket Table */
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+ 
+.ticket-table th {
+  background: #2a5298;
+  color: white;
+  font-weight: 600;
+  padding: 14px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+ 
+.ticket-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  background: #fff;
+  transition: background 0.2s ease;
+}
+ 
+/* Hover effect only for rows */
+.ticket-table tbody tr:hover {
+  background: #f5f7fa;
+}
+ 
+/* Responsive */
+@media (max-width: 900px) {
+  .ticket-controls {
+    flex-direction: column;
+  }
+  .ticket-controls input,
+  .ticket-controls select,
+  .ticket-controls button {
+    width: 100%;
+  }
+  .ticket-table {
+    font-size: 13px;
+  }
+}

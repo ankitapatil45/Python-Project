@@ -1,0 +1,64 @@
+.add-agent-container {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #fff; /* Use white card style */
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.add-agent-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.add-agent-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.add-agent-form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.add-agent-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.3);
+}
+
+.btn-submit {
+  padding: 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+.success {
+  color: #28a745;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 15px;
+  font-weight: bold;
+}

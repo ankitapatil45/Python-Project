@@ -1,0 +1,69 @@
+/* .assign-ticket {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.assign-ticket h3 {
+  text-align: left;
+  color: #2a5298;
+  margin-bottom: 20px;
+}
+
+/* =======================
+   Assign Ticket Form
+   ======================= */
+/* .assign-controls  {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.assign-controls  select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+  width: 100%;
+}
+
+.assign-controls  select:focus {
+  border-color: #3b82f6; 
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.assign-controls  button {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;             
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.assign-controls  button {
+  width:  150px;            
+  height: 40px; 
+}
+
+.assign-controls  button:hover {
+  background: linear-gradient(135deg, #16335d, #244a8c);
+}
+
+/* =======================
+   Responsive Design
+   ======================= */
+/* @media (max-width: 768px) {
+  .assign-controls  {
+    grid-template-columns: 1fr; 
+  }
+
+  .assign-controls  button {
+    grid-column: span 1;
+  } */
+/* }   */

@@ -1,0 +1,46 @@
+.assigned-ticket-page {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+ 
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+ 
+.ticket-table th,
+.ticket-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+ 
+.ticket-table th {
+  background: #f8f9fc;
+  font-weight: 600;
+  color: #333;
+}
+ 
+.ticket-table tr:hover {
+  background: #f1f5ff;
+}
+ 
+/* Priority styles */
+.priority.low {
+  color: green;
+  font-weight: 600;
+}
+.priority.medium {
+  color: orange;
+  font-weight: 600;
+}
+.priority.high {
+  color: red;
+  font-weight: 600;
+}

@@ -1,0 +1,114 @@
+/*.client-home {
+  padding: 20px;
+}
+ 
+.client-home h1 {
+  font-size: 1.8rem;
+  color: #333;
+}
+ 
+.client-home p {
+  font-size: 1rem;
+  color: #666;
+}*/
+
+
+
+
+
+
+
+
+/* Container */
+.client-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+{/* Sidebar */}
+.sidebar {
+  width: 250px;
+  background: #077ef5;
+  color: #fff;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background: #c9daf3;
+}
+
+.sidebar ul li.active {
+  background: #e3eae9;
+  font-weight: bold;
+}
+
+{/* Main content*/} 
+.main-content {
+  margin-left: 250px;   {/* same as sidebar width */}
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+{/* Navbar / Header */}
+.dashboard-header {
+  background: #fff;
+  padding: 15px 25px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+{/* Dashboard Body (scrollable area) */}
+.dashboard-body {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #f5f7fb;
+}
+
+
+
+
+
+
+

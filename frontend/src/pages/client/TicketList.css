@@ -1,0 +1,113 @@
+.ticket-list-container, .p-6 {
+  padding: 24px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f7fbfd;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* heading utilities */
+.text-xl { font-size: 22px; line-height:1.2; }
+.font-bold { font-weight: 700; }
+.mb-4 { margin-bottom: 16px; }
+
+/* button utilities */
+.px-4 { padding-left: 16px; padding-right: 16px; }
+.py-2 { padding-top: 8px; padding-bottom: 8px; }
+.bg-blue-600 { background-color: #2563eb; }
+.text-white { color: #fff; }
+.rounded { border-radius: 8px; }
+.transition { transition: background-color .15s ease, transform .12s ease; }
+.hover\:bg-blue-700:hover { background-color: #1d4ed8; }
+
+/* overflow helper */
+.overflow-x-auto { overflow-x: auto; }
+
+/* table base */
+.min-w-full,
+.ticket-list-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  font-size: 14px;
+}
+
+/* header */
+.bg-gray-100 { background: #f3f4f6; }
+
+/* th / td spacing */
+.min-w-full th,
+.min-w-full td,
+.ticket-list-table th,
+.ticket-list-table td {
+  padding: 12px 18px;
+  vertical-align: middle;
+  text-align: left;
+  color: #222;
+  font-weight: 400;
+}
+
+/* header bold */
+.min-w-full thead th,
+.ticket-list-table thead th {
+  font-weight: 700;
+  border-bottom: 2px solid #e6edf3;
+}
+
+/* border */
+.border {
+  border: 1px solid #e8eef5;
+}
+
+/* striped rows */
+.min-w-full tbody tr:nth-child(even) td {
+  background: #fbfcfd;
+}
+.min-w-full tbody tr:hover td,
+.ticket-list-table tbody tr:hover td,
+.hover\:bg-gray-50:hover td {
+  background: #f9fafb;
+}
+
+/* text center */
+.text-center { text-align: center; }
+
+/* capitalization */
+.capitalize { text-transform: capitalize; }
+
+/* Chat link */
+.chat-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+.chat-link:hover {
+  text-decoration: underline;
+  color: #1d4ed8;
+}
+
+/* responsive */
+@media (max-width: 780px) {
+  .min-w-full th,
+  .min-w-full td {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

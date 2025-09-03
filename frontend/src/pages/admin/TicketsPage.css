@@ -1,0 +1,68 @@
+.all-tickets {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+ 
+.all-tickets h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #333;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+ 
+.all-tickets table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+ 
+.all-tickets table th,
+.all-tickets table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+ 
+.all-tickets table th {
+  background: #0044ffda; /* Blue background */
+  color: white;        /* White text for contrast */
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+  padding: 12px;
+  font-size: 0.95rem;
+}
+ 
+.all-tickets table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+ 
+.all-tickets select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+ 
+.all-tickets button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+ 
+.all-tickets button:hover {
+  background: #0056b3;
+}
+ 
+.all-tickets p {
+  color: #666;
+  font-size: 0.95rem;
+}

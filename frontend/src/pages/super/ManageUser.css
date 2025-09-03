@@ -1,0 +1,209 @@
+/* Container */
+.user-management {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+  overflow-x: auto;
+}
+
+/* Heading */
+.user-management h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.user-table th {
+  background: #f5f7fa;
+  color: #444;
+  font-weight: 600;
+}
+
+.user-table tr:hover {
+  background: #f9fcff;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Status Badge */
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status-badge.active {
+  background: #e6f9ec;
+  color: #0a8a43;
+  border: 1px solid #0a8a43;
+}
+
+.status-badge.deactive {
+  background: #fdeaea;
+  color: #c62828;
+  border: 1px solid #c62828;
+}
+
+/* Action Buttons */
+.action-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-btn {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.edit-btn:hover {
+  background: #1976d2;
+  color: white;
+}
+
+.delete-btn {
+  background: #fdecea;
+  color: #d32f2f;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+  color: white;
+}
+
+.toggle-btn {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.toggle-btn:hover {
+  background: #ef6c00;
+  color: white;
+}
+
+/* Modal Overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: slideDown 0.3s ease;
+}
+
+.modal-content h4 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.modal-content label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin: 8px 0 5px;
+  text-align: left;
+}
+
+.modal-content input,
+.modal-content select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.modal-content input:focus,
+.modal-content select:focus {
+  border-color: #1976d2;
+}
+
+/* Modal Buttons */
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-actions .save-btn {
+  background: #1976d2;
+  color: white;
+}
+
+.modal-actions .save-btn:hover {
+  background: #0d47a1;
+}
+
+.modal-actions .cancel-btn {
+  background: #f5f5f5;
+  color: #444;
+}
+
+.modal-actions .cancel-btn:hover {
+  background: #e0e0e0;
+}
+
+/* Animation */
+@keyframes slideDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

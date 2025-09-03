@@ -1,0 +1,59 @@
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar (updated to match superadmin design) */
+.sidebar {
+  width: 240px;
+  height: calc(100vh - 60px); /* full height minus navbar height */
+  background: linear-gradient(180deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 90px; /* adjust if you have navbar height */
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .app-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #eae1e1b7;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background: rgba(255, 255, 255, 0.127);
+}
+
+.sidebar ul li.active {
+  background: white;
+  color: #1e3c72;
+  font-weight: 600;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  margin-left: 265px; /* push right because sidebar is fixed */
+  margin-top: 60px;   /* add space for navbar */
+  padding: 20px;
+}
